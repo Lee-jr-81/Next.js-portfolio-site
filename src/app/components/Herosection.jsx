@@ -9,17 +9,28 @@ const Herosection = () => {
           <h1 className="text-white mb-4 text-4xl lg:text-6xl font-extrabold">
             Hello, my name is Lee.
           </h1>
-          <p className="text-[#b8b4d2] text-lg lg:text-xl">
+          <p className="text-[#b8b4d2] text-lg lg:text-xl mb-6">
             I love coding brilliantly simple things.
           </p>
+          <div>
+            <button className="px-6 py-3 rounded-full mr-4 bg-white hover:bg-[#eef2ff] text-black">
+              Contact Me
+            </button>
+            <button className="px-6 py-3 rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
+              Download CV
+            </button>
+          </div>
         </div>
-        <div className="col-span-5">
-          <Image
-            src="/images/hero-image.png"
-            alt="hero image of lee"
-            width={500}
-            height={500}
-          />
+        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+          <div className="rounded-full overflow-hidden bg-[#4f4496] w-[300px] h-[200px] lg:w-[400px] lg:h-[250px] relative">
+            <Image
+              src="/images/hero-image.png"
+              alt="hero image of lee"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={500}
+              height={500}
+            />
+          </div>
         </div>
       </div>
     </section>

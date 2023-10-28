@@ -27,7 +27,7 @@ const Herosection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full overflow-hidden bg-[#1a1a1a] w-[300px] h-[200px] lg:w-[400px] lg:h-[250px] relative">
+          <div className="rounded-3xl overflow-hidden bg-[#1a1a1a] w-[300px] h-[200px] lg:w-[400px] lg:h-[250px] relative">
             <Image
               src="/images/hero-image.png"
               alt="hero image of lee"
